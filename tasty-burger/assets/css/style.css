@@ -1,0 +1,486 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    background: #FFF;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#header1{
+    margin-bottom: 40px;
+}
+.top-nav{
+    border-bottom: 1px solid gray;
+    height: 50px;
+}
+.nav-top li a{
+    text-decoration: none;
+    color: black;
+}
+.top-nav2 ul li a{
+    color: #3a3939;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.login-button{
+    letter-spacing: 1px;
+    font-size: 12px;
+    background: #05c46b;
+    border-radius: 4px;
+    color: #fff;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.social{
+   margin-left: -20px;
+
+}
+.logo-n{
+    display: flex;
+
+}
+.nav-top li a:hover{
+    background: none;
+}
+.nav-top2 li a:hover, i:hover{
+    background: none;
+}
+
+.logo-n:hover{
+    text-decoration: none;
+}
+.top-nav2 ul li a:hover{
+    background-color: #fff;
+}
+.logo-n h1{
+    font-weight: bold;
+    color: black;
+    margin-top: 7px;
+   
+}
+
+.logo-n span{
+    color: red;
+    position: relative;
+    right: 55px;
+    letter-spacing: 6px;
+  
+
+}
+
+.header2 .left-side h3{
+    font-size: 60px;
+    color: balck;
+    font-weight: bold;
+}
+.header2 .left-side h3 span{
+    color: red;
+}
+.header2 .left-side p{
+    color: gray;   
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.read-btn{
+    letter-spacing: 1px;
+    font-size: 12px;
+    background: #05c46b;
+    border-radius: 4px;
+    color: #fff;
+    width: 112px;
+    height: 45px;
+}
+.order-btn{
+    letter-spacing: 1px;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 4px;
+    color: black;
+    border: 1px solid black;
+    width: 112px;
+    height: 45px;
+}
+.slider-container{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+/*.carousel-inner .item img {
+    width: 100%;
+}*/
+.inner-slider .item{
+    margin-right: 50px;
+    margin-top: -50px;
+}
+.inner-slider .item img{
+    width: 50%;
+}
+
+.ol{
+    position: absolute;
+    left: 250px;
+    color: black;
+}
+.left-side-about{
+    margin-left: -14px;
+}
+.section2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right-side-about h5{
+    font-size: 14px;
+    Font-size: 22px;
+    Font-weight: 400;
+    line-height: 25px;
+    color: rgb(53, 53, 53);
+
+}
+.right-side-about h1{
+    Font size: 40px
+    Font-weight: 600;
+    Line-height: 48px;
+    color: black;
+    
+}
+.right-side-about span{
+    color: rgb(255, 63, 52);
+    Font-weight: 400;
+}
+.right-side-about p{
+    Font-size: 17px;
+    Font-weight: 400;
+    Line-height: 25px;
+    color: rgb(153, 153, 153);
+}
+.card-section{
+    margin-top: 20px;
+}
+.left-top-card h5{
+    Font size: 22px;
+    Font weight: 400;
+    Line height: 25px;
+    Font color: rgb(53, 53, 53);
+}
+
+.left-top-card span{
+    color: red;
+
+}
+.thumbnail-div1{
+    background: url(../images/bg1.jpg) no-repeat;
+    height: 500px;
+    padding: 0;
+    margin-left: -15px;
+    margin-right: -30px;
+     background-image: cover;
+}
+.thumbnail-div2{
+    background: url(../images/bg2.jpg) no-repeat;
+    height: 500px;
+    padding: 0;
+    margin-right: -30px;
+    background-image: cover;
+}
+.section5 .card-img{
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+.middle2-card .caption{
+    color: white;
+    padding: 150px;
+}
+.middle2-card .caption h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    color: rgb(255, 255, 255);
+}
+.middle2-card .caption p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(248, 249, 250);
+}
+.middle-section{
+    margin-top: 25px;
+    background: url(../images/section4.jpg) no-repeat;
+    height: 350px;
+}
+.section4{
+    height: 800px;
+}
+.middle-image{
+    width: 550px;
+}
+.column1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.column2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.column1 p, .column2 p{
+    font size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    Font color: rgb(153, 153, 153);
+
+}
+.middle-section .p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    font-color: rgb(53, 53, 53);
+}
+.middle-section .h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: rgb(51, 51, 51);
+}
+.h3 span{
+    color: red;
+}
+.section6{
+    height: 130px;
+      margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer{
+        background: #17181b;
+}
+.copyright{
+        background: #1c1d21;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        Font size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        color: rgb(153, 153, 153);
+}
+.copyright a{
+    color: white;
+}
+
+.section7{
+    margin-top: 190px;
+    margin-bottom: 20px;
+}
+.inner-slider2 .m-slider-img{
+    width: 100%;
+}
+.sub-h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    color: rgb(51, 51, 51);
+
+}
+.section7 .form-group .int{
+    width: 300px;
+}
+.sub-btn{
+    background-color: red;
+    color: white;
+    margin-left: -5px;
+}
+.sub-image{
+    margin-left: 190px;
+
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.footer-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.txt-white{
+    color: white;
+    margin-bottom: 10px;
+
+}
+.title p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(114, 115, 119);
+}
+textarea{
+    resize: none;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px){
+    .top-nav{
+        height: 140px;
+    }
+    .nav-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-nav .login-button{
+        margin-left: 90px;
+    }
+    .nav-top2{
+       display: flex;
+       justify-content: center;
+       margin-left: -80px;
+    }
+   
+    .navbar-toggle{
+        border: 1px solid black;
+/*        padding: 8px 8px;*/
+        text-align: center;
+        background: #eee;
+    }
+    .navbar-toggle .icon-bar{
+        padding-right: 5px;
+    }
+    .header2 .left-side h3{
+        font-size: 30px;
+        color: balck;
+        font-weight: bold;
+
+    }
+    .header2 .left-side{
+        margin-left: 50px;
+    }
+    .left-side .order-btn{
+        margin-top: -66px;
+        margin-left: 120px;
+    }
+    .left-side p{
+        text-align: justify;
+    }
+    .header1{
+        margin-bottom: 50px;
+    }
+    .slider-container{
+        width: 500px;
+        height: 230px;
+        
+    }
+    /*.carousel-inner .item img {
+        width: 100%;
+    }*/
+    .inner-slider .item{
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    .inner-slider .item img{
+        width: 50%;
+    }
+    .middle2-card .caption{
+        padding: 60px;
+    }
+    .thumbnail-div2{
+        margin-left: -20px;
+    }
+    .middle-section .h3{
+        font-size: 20px;
+    }
+    .column1,.column2{
+        font-size: 10px;
+    }
+    .column1 img,.column2 img{
+        width: 50px;
+    }
+    .middle-image img{
+        width: 55%;
+    }
+    .section4{
+      margin-bottom: -100px;
+    }
+    .section6{
+        margin-left: -19px;
+        margin-right: -19px;
+        margin-bottom: -200px;
+    }
+    .section7 .form-group .int{
+        width: 230px;
+    }
+    .sub-btn{
+        margin-left: 111px;
+        margin-top: -65px;
+    }
+    .sub-h3{
+        font-size: 20px;
+    }
+    .sub-image{
+        margin-left: 17px;
+    }
+    .footer-ul{
+        display: flex;
+    }
+    .txt-white{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .info-form-right .sub-btn{
+        margin-left: -6px;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+        .header2 .left-side h3{
+            font-size: 20px;
+            color: balck;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        .header2 .left-side p{
+            color: gray;   
+            line-height: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .slider-container{
+            width: 500px;
+            height: 230px;
+        
+        }
+        .inner-slider .item{
+            width: 100%;
+            margin-left: 50px;
+        }
+        .inner-slider{
+            margin-top: -160px;
+        }
+        .middle2-card .caption{
+            padding: 85px;
+        }
+        .section5{
+            margin-top: 230px;
+        }
+        .sub-image{
+            margin-left: 33px;
+        }
+        .section7 .form-group .int {
+            width: 203px;
+        }
+        .txt-white{
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+}
